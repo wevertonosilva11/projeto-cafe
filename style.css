@@ -1,0 +1,97 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+list-style: none;
+}
+
+.hero {
+    background-image:  url('./Assents/banner.img.jpg'); 
+    background-position: center;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: white;
+}
+
+.btn-menu {
+    background-color: #f37021; 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7a3611; 
+    color: white;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+nav ul {
+    list-style: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.productos {
+    padding: 50px;
+    text-align: center; /* Centraliza o título e a descrição */
+    background-color: white;
+}
+
+.productos h2 {
+    color: #a31d1d;
+}
+
+.hero {
+ background: url(Assents/banner.jpg) center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
