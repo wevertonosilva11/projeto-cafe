@@ -12,17 +12,6 @@ ul{
 list-style: none;
 }
 
-.hero {
-    background-image:  url('./Assents/banner.img.jpg'); 
-    background-position: center;
-    height: 90vh; 
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
-    color: white;
-}
 
 .btn-menu {
     background-color: #f37021; 
@@ -66,25 +55,27 @@ nav ul {
 nav ul li {
     margin-left: 20px;
 }
-
+ 
 nav ul li a {
     color: white;
     text-decoration: none; 
     font-weight: bold;
 }
 
-.productos {
-    padding: 50px;
-    text-align: center; /* Centraliza o título e a descrição */
+.produto-img {
+    height: 200px;
+    width: 200px;
+}
+
+.produtos h2 {
+    color: #a31d1d;
+    padding: 20px;
+    text-align: center;
     background-color: white;
 }
 
-.productos h2 {
-    color: #a31d1d;
-}
-
 .hero {
- background: url(Assents/banner.jpg) center/cover no-repeat;
+ background: url("Assents/banner.jpg");
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -94,4 +85,47 @@ nav ul li a {
     align-items: center;
     color: white;
     text-align: center;
+}
+
+
+.caixa-icones{
+  flex-direction: row;
+  margin: 150px;} 
+
+.tamanha-img{
+    height: 100%;
+}
+
+.texto{
+    text-align: center;
+    background-color: white;
+    
+}
+.cafe{
+     background-color: #f37021; 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.reposteria{
+    color: rgb(10, 8, 8);
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.comida{
+     color: rgb(10, 8, 8);
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }
